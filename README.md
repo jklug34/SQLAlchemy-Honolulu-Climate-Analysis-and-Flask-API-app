@@ -28,12 +28,13 @@ Analysis of  Honolulu, Hawaii climate in  SQLAlchemy/Python along with the creat
 
 
 
-Climate.py Flask API
+climate_app.py Flask API
 
 - Use Google Chrome. 
 - Output json libraries.
 
 Endpoints
+
 Available Routes:
 
  -      /api/v1.0/precipitation
