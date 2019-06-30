@@ -24,3 +24,19 @@ Analysis of  Honolulu, Hawaii climate in  SQLAlchemy/Python along with the creat
 
 ![Area_plot_temp_normals_over_vacation](https://user-images.githubusercontent.com/48166327/60390831-2f3ee880-9a94-11e9-9525-16d43888bccd.png)
 
+
+
+
+
+Climate.py Flask API
+
+Use google chrome. Output json libraries.
+
+Endpoints
+Available Routes:
+        /api/v1.0/precipitation
+        /api/v1.0/stations
+        /api/v1.0/tobs
+        /api/v1.0/start/(input date trip start date here, e.g. "2017-01-01")
+        /api/v1.0/start/end/(input date trip start date here, e.g. "2017-01-01")/(input date trip end date here, e.g. "2017-01-14")
+
