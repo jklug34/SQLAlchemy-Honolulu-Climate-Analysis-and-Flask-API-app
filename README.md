@@ -28,15 +28,17 @@ Analysis of  Honolulu, Hawaii climate in  SQLAlchemy/Python along with the creat
 
 
 
-Climate.py Flask API
+- Climate.py Flask API
 
-Use google chrome. Output json libraries.
+- Use google chrome. 
+- Output json libraries.
 
-Endpoints
-Available Routes:
-        /api/v1.0/precipitation
-        /api/v1.0/stations
-        /api/v1.0/tobs
-        /api/v1.0/start/(input date trip start date here, e.g. "2017-01-01")
-        /api/v1.0/start/end/(input date trip start date here, e.g. "2017-01-01")/(input date trip end date here, e.g. "2017-01-14")
+- Endpoints
+- Available Routes:
+
+ -      /api/v1.0/precipitation
+ -      /api/v1.0/stations
+ -      /api/v1.0/tobs
+ -      /api/v1.0/start/(input date trip start date here, e.g. "2017-01-01")
+ -      /api/v1.0/start/end/(input date trip start date here, e.g. "2017-01-01")/(input date trip end date here, e.g. "2017-01-14")
 
