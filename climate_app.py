@@ -5,6 +5,8 @@ import sqlalchemy
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
 from sqlalchemy import create_engine, func
+from sqlalchemy.orm import scoped_session, sessionmaker
+
 
 from flask import Flask, jsonify
 
@@ -17,7 +19,8 @@ Base.prepare(engine, reflect=True)
 Measurement = Base.classes.measurement
 Station = Base.classes.station
 
-session = Session(engine)
+#session = Session(engine)
+session = scoped_session(sessionmaker(bind=engine))
 
 app = Flask(__name__)
 
